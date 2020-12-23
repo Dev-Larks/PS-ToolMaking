@@ -1,0 +1,45 @@
+FEEDBACK PAGE
+First, please have a chapter name, heading reference, and a brief snippet of text for us to refer to.
+
+Hi Don and Jeff
+
+All my suggested edits follow the word or phrase that doesn't read well and are in () followed by a ?
+
+Chapter Name: Lab Setup
+Heading Reference: Create a Virtualized Environment
+We know that most of our readers are technically savvy and more than likely have a preferred
+virtualization tool. You might prefer Hyper-V or big (be)? a VMware fan.
+
+
+Chapter Name: Part 1: Review PowerShell Toolmaking
+Heading Reference: N/A (paragraph under title name)
+If you’ve read that book, or feel you have equivalent experience, then this
+short Part (section)? will help refresh you on some core terminology and techniques.
+
+
+Chapter Name: Part 1: Review PowerShell Toolmaking
+Heading Reference: Functions, the Right Way 
+By the way, you’ll notice that our downloadable code samples for this book (the “PSToolmaking” module in PowerShell Gallery) - change to ("PowerShell-Toolmaking")?
+
+
+Chapter Name: Part 1: Review PowerShell Toolmaking
+Heading Reference: PowerShell Tools Do One Thing
+This philosophy carries over into our world. The Prime Directive for a PowerShell tool is that it onlyt (only)? does one thing.
+
+
+Chapter Name: Part 1: Review PowerShell Toolmaking
+Heading Reference: PowerShell Tools are Flexible (Who and How)
+Will the use (user)? be importing Excel spreadsheets to pass as parameter values?
+
+
+Chapter Name: Part 1: Review PowerShell Toolmaking
+Heading Reference: Start with a Command (Start Here section)
+Remember that you are designing a tool that will get remoting configuration (doesn't refer to current design task) information for a remote server.
+
+
+Chapter Name: Part 1: Review PowerShell Toolmaking
+Heading Reference: Build a Basic Function and Module (Design the Input Parameters)
+we recommend creating usage examples as tht (the) primary design deliverable.
+
+
+Pg. 9 - Get-RemoteListeningConfiguration
