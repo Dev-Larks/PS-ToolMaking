@@ -17,6 +17,7 @@ Get-TMComputerStatus -ComputerName SRV1, SRV2 -Credential DOMAIN\USERID -LogErro
 Get-TMComputerStatus -ComputerName SRV1, SRV2 -Credential DOMAIN\USERID | Export-Csv -Path C:\TMP\ScripOutput\TMCompStatus_20211223.csv -NoTypeInformation
 
 
+Commands
 $compInfo = Get-ComputerInfo
 # Computername = $compInfo.CsName
 # of Processes = $compInfo.OsNumberOfProcesses
@@ -25,5 +26,13 @@ Processor load = $load = Get-CimInstance -ClassName Win32_Processor	($load.loadP
 % free space = $disk = Get-CimInstance -ClassName Win32_LogicalDisk	($disk.FreeSpace)
 Uptime = $compInfo.OsUptime
 Timestamp = Get-Date
+
+
+Parameters
+[string] $ComputerName
+[string] $LogFilePath
+[string] $Credential
+[switch] $LogErrors
+[switch] $ErrorAppend
 
 
