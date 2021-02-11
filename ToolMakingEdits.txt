@@ -42,4 +42,14 @@ Heading Reference: Build a Basic Function and Module (Design the Input Parameter
 we recommend creating usage examples as tht (the) primary design deliverable.
 
 
+Chapter Name: Part 1: Review PowerShell Toolmaking
+Heading Reference: Create a Script Module
+On PowerShell v4 and later, the default path includes C:Program FilesWindowsPower-
+ShellModules, so that’s where we’ll create our module. Specifically, we’ll save it as C:Program
+FilesWindowsPowerShellModulesToolmakingToolmaking.psm1. (all the slashes between folder names missing)
+
+
+Current location pg 22
+
+
 Pg. 9 - Get-RemoteListeningConfiguration
