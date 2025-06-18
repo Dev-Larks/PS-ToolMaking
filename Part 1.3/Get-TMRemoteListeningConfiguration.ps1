@@ -1,7 +1,7 @@
 function Get-TMRemoteListeningConfiguration {
     [CmdletBinding()]
     param (
-        [string] $ComputerName,
+        [string[]] $ComputerName,
         [switch] $LogErrors,
         [string] $LogFilePath = C:\Temp\OfflineServers.txt
     )
@@ -30,4 +30,4 @@ function Get-TMRemoteListeningConfiguration {
     end {
         
     }
-}
+}# End Get-TMRemoteListeningConfiguration

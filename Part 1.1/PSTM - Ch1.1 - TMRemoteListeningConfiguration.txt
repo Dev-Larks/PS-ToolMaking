@@ -1,0 +1,22 @@
+# Tool Requirements
+ComputerName
+WSMan remoting enabled
+WSMan ports in use
+WSMan protocols
+SSH status
+Report date
+
+# Cmdlets
+Test-NetConnection
+
+# Design Examples
+Get-RemoteListeningConfiguration -Computername SRV1
+Get-RemoteListeningConfiguration -Computername SRV1, SRV2
+Get-Content servers.txt | Get-RemoteListeningConfiguration
+Import-Csv servers.csv | Get-RemoteListeningConfiguration
+Get-RemoteListeningConfiguration (Get-ADComputer -Filter *).Name
+Get-Content servers.txt | Get-RemoteListeningConfiguration -LogPath errorlog.txt
+
+# Parameters
+[string] $ComputerName
+[string] $LogFilePath
